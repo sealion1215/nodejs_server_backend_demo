@@ -1,0 +1,45 @@
+{
+  "name": "nodejs_server_backend_demo",
+  "version": "1.0.0",
+  "description": "Demo of a basic nodejs service in typescript",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "_moduleAliases": {
+    "@controllers": "src/controllers",
+    "@interfaces": "src/interfaces",
+    "@dbOperations": "src/dbOperations",
+    "@services": "src/services",
+    "config": "src/config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sealion1215/nodejs_server_backend_demo.git"
+  },
+  "author": "Simon Shee",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sealion1215/nodejs_server_backend_demo/issues"
+  },
+  "homepage": "https://github.com/sealion1215/nodejs_server_backend_demo#readme",
+  "dependencies": {
+    "@react-navigation/native": "^5.7.2",
+    "@react-navigation/stack": "^5.8.0",
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.7",
+    "@types/express-jwt": "0.0.42",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/module-alias": "^2.0.0",
+    "@types/mongoose": "^5.7.34",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.9.27",
+    "react": "^16.13.1",
+    "saslprep": "^1.0.3"
+  },
+  "devDependencies": {}
+}
